@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+	body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@font-face{
+	font-family: Sansation;
+	src: url(../Fonts/Sansation_Regular.ttf);
+	font-weight: 500;	
+}
+@font-face {
+	font-family: Sansation;
+	src: url(../Fonts/Sansation_Light.ttf);
+	font-weight: 300;
+	font-size: 16px;
+}
+@font-face {
+	font-family: Sansation;
+	src:url(../Fonts/Sansation_Bold.ttf);
+	font-weight: bold;
+}
+div#pg {
+	display: block;
+	position: relative;
+	width: 980px;
+	height: 100%;
+	border: 2px solid #3131f9;
+	overflow: auto;
+}
+.navl {
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	text-align: center;	
+	border-left: 1px solid #FFF;
+}
+.navs {
+	background-image: url(../Images/ns.jpeg);
+}
+.navu {
+	background-image: url(../Images/nus.jpeg);
+}
+.rl {
+	text-decoration: none;
+	font-family: Comfortaa;
+	font-weight: 900;
+	font-size: 14px;
+	display: block;
+	text-align:center;
+	margin-top: 10px;
+	color: #FFF;	
+}
+.wnd {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: 1px solid #3131f9;
+	font-size: 13pt;
+	width: 100%;
+}
+.wndTBar {
+	font-family: Sansation;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid #3131f9;
+}
+.leftPane {
+	padding: 10px;
+	max-width: 200px;
+	display: inline-block;
+}
+.tdf {
+	font-weight: 500;
+	font-size: 16px;
+	padding: 5px;
+	text-align: right;
+}
+.tdv {
+	font-wieght: 500;
+	font-size: 16px;
+	padding: 5px;
+	text-align: left;
+}
+td#f {
+	font-weight: 400;
+	font-size: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: right;	
+}
+td#v {
+	font-weight: 400;
+	font-size: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: left;	
+}
+.latest-news {
+	display: inline-block;
+	overflow: auto;
+	vertical-align: top;
+	max-width: 700px;
+	min-width: 600px;
+	font-family: Comfortaa;
+	font-weight: 500;
+}
+.pgcontainer {
+	display: inline-block;
+	padding: 10px;
+	overflow: auto;
+}
+#welcome {
+	vertical-align: top;
+	font-family: Sansation;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	padding: 15px;
+}
+p#itxt {
+	font-family: Sansation;
+	font-size: 18px;
+	font-weight:500;	
+}
+p#dtxt{
+	font-family: Sansation;
+	font-size: 18px;
+	font-weight:500;	
+}
+.nav {
+	display: inline-table;
+	height: 35px;
+	padding-bottom: 25px;
+	left: 385px;
+	top: 100px;
+	position: absolute;
+}
+div#hdr {
+	background-image: url(../Images/header.png);
+	 height: 130px;
+	 width: 100%	
+}
+.bline {
+    border-color: #09f;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.hrdiv {
+    width: 275px;
+}
+.flink {
+    text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+
+}
+.adiv{
+	text-align:center;	
+	padding-left: 10px;
+}
+.areaDiv{
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	font-weight: 400;
+	font-size: 16px;
+}
